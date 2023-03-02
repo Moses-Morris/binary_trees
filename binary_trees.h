@@ -89,6 +89,10 @@ avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
 int binary_tree_is_avl(const binary_tree_t *tree);
 avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval);
+void bal(avl_t **tree);
+int successor(bst_t *node);
+int remove_type(bst_t *root);
+bst_t *bst_remove(bst_t *root, int value);
 
 #endif /* BINARY_TREES_H */
 
