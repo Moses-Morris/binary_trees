@@ -93,6 +93,7 @@ void bal(avl_t **tree);
 int successor(bst_t *node);
 int remove_type(bst_t *root);
 bst_t *bst_remove(bst_t *root, int value);
+void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
+
 
 #endif /* BINARY_TREES_H */
-
