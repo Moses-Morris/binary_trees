@@ -94,6 +94,10 @@ int successor(bst_t *node);
 int remove_type(bst_t *root);
 bst_t *bst_remove(bst_t *root, int value);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
+int btih_helper(const binary_tree_t *tree);
+int binary_tree_is_complete(const binary_tree_t *tree);
+int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
+size_t binary_tree_size(const binary_tree_t *tree);
 
 
 #endif /* BINARY_TREES_H */
